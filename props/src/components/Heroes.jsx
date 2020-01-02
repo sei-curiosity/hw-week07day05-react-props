@@ -13,9 +13,9 @@ class Heros extends Component {
                             <h1><u>Hero:</u> {hero.heroName}</h1>
                             <h2><u>Alias:</u> {hero.humanName}</h2>
                             <h2><u>Superpowers:</u></h2>
-                            {this.props.powers.map(p => {
-                                if (p.heroName === hero.heroName) {
-                                    return <Powers powers={p.superpowers} />
+                            {this.props.powers.map(info => {
+                                if (info.heroName === hero.heroName) {
+                                    return <Powers powers={info.superpowers} />
                                 }
                             })}
                             <hr />

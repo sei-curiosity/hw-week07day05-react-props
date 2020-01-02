@@ -6,11 +6,11 @@
 
 1. Create a new React App.
 2. Add 2 components to the React App namely:
-
-  ### Heroes.js (should return a component with an array of objects listing the heroes in it)
+  Heroes.js , Powers.js
+3. Create two objects namely heroInfo and powerInfo
   
 ```js
-  [
+  let heroinfo = [
     {
       heroName: 'Superman',
       humanName: 'Clark'
@@ -25,14 +25,9 @@
     }
   ]
 ```
-  
-  
-  
-  ### Powers.js (should return a component with an array of objects listing superpowers)<p>
-  
-  
-  ```js
-  [
+
+```js
+  let powerInfo = [
     {
       heroName: 'Superman',
       superpowers: ['flight', 'laser eyes', 'ice breath']
@@ -47,10 +42,12 @@
     }
   ]
   ```
+  4. *Heroes.js* component should take the props from the heroInfo object as props and deisgn elements. *Powers.js* should take the prop from powerInfo object as props and design elements.
+
   
-  3. Now using Props render the Superheros with their heroName, humanName and superpowers 
-  ``` (listed in a <ul> <li> .. </li></ul> ) ```
+  5. Now using Props render the Superheros with their heroName, humanName and superpowers (listed in an unordered list)
+
   
-  ### HINT: You can use Props children to display the powers.js
+ *HINT: You can use Props children to display the powers.js*
   
   

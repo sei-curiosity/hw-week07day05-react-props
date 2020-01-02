@@ -42,7 +42,25 @@
     }
   ]
   ```
-  4. *Heroes.js* component should take the props from the heroInfo object as props and deisgn elements. *Powers.js* should take the prop from powerInfo object as props and design elements.
+  4. *Heroes.js* component should take the props from the heroInfo object as props and design elements:
+  
+    ```
+    <h1><u>Hero:</u> Superman</h1>
+    <h2><u>Alias:</u>Clark </h2>
+    ```<br>
+ 
+   *Powers.js* should take the prop from powerInfo object as props and design elements as follows(eg.).
+    
+    ```
+    <h1><u>Hero:</u> Superman</h1>
+    <h2><u>Superpowers:</u>
+    <ul>
+    <li>flight</li>
+    <li>laser eyes</li>
+    <li>ice breath</li>
+    </ul>
+    ```
+  
 
   
   5. Now using Props render the Superheros with their heroName, humanName and superpowers (listed in an unordered list)

@@ -47,7 +47,7 @@
     ```
     <h1><u>Hero:</u> Superman</h1>
     <h2><u>Alias:</u>Clark </h2>
-    ```<br>
+    ```
  
    *Powers.js* should take the prop from powerInfo object as props and design elements as follows(eg.).
     

@@ -7,7 +7,7 @@
 1. Create a new React App.
 2. Add 2 components to the React App namely:
   Heroes.js , Powers.js
-3. Create two objects namely heroInfo and powerInfo
+3. Create two array of objects namely heroInfo and powerInfo
   
 ```js
   let heroinfo = [

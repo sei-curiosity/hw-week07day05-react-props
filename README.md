@@ -52,7 +52,7 @@
    *Powers.js* should take the prop from powerInfo object as props and design elements as follows(eg.).
     
     
-    <h2><u>Superpowers:</u>
+    <h2><u>Superpowers:</u></h2>
     <ul>
     <li>flight</li>
     <li>laser eyes</li>

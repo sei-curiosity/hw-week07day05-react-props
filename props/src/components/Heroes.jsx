@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Powers from './Powers';
 
-class Heros extends Component {
+class Heroes extends Component {
     render() {
         return (
             <div>
@@ -27,4 +27,4 @@ class Heros extends Component {
     }
 }
 
-export default Heros;
+export default Heroes;

@@ -1,24 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Heroes from './components/Heroes';
+
+
+let heroinfo = [
+  {
+    heroName: 'Superman',
+    humanName: 'Clark'
+  },
+  {
+    heroName: 'Flash',
+    humanName: 'Barry'
+  },
+  {
+    heroName: 'Wonder Woman',
+    humanName: 'Diana'
+  }
+]
+
+let powerInfo = [
+  {
+    heroName: 'Superman',
+    superpowers: ['flight', 'laser eyes', 'ice breath']
+  },
+  {
+    heroName: 'Flash',
+    superpowers: ['speed', 'lightening']
+  },
+  {
+    heroName: 'Wonder Woman',
+    superpowers: ['strength', 'lasso of truth']
+  }
+]
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Heroes heroes={heroinfo} powers={powerInfo} />
     </div>
   );
 }

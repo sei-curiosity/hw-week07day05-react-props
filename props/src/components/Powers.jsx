@@ -5,7 +5,7 @@ class Powers extends Component {
         return (
             <div>
                 <ul>
-                    {this.props.powers.map(superpower => <li>{superpower}</li>)}
+                    {this.props.powers.map(superpower => <li key={superpower}>{superpower}</li>)}
                 </ul>
             </div>
         );

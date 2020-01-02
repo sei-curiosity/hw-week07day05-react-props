@@ -3,7 +3,7 @@
 Task List:
 
 1. Create a new React App.
-2. Add 2 components to the React App namely:
+2. Add 2 components to the React App namely: <p>
   -Heros.js (should return a component with an array of objects listing the heroes in it)
   ```[
     {

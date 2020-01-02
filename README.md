@@ -7,7 +7,7 @@
 1. Create a new React App.
 2. Add 2 components to the React App namely:
 
-  ### Heros.js (should return a component with an array of objects listing the heroes in it)
+  ### Heroes.js (should return a component with an array of objects listing the heroes in it)
   
 ```js
   [

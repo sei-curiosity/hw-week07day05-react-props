@@ -17,6 +17,7 @@ class Heroes extends Component {
                                 if (info.heroName === hero.heroName) {
                                     return <Powers key={info.heroName} powers={info.superpowers} />
                                 }
+                                return undefined;
                             })}
                             <hr />
                         </div>

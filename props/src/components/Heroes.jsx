@@ -9,7 +9,7 @@ class Heroes extends Component {
 
                 {this.props.heroes.map(hero => {
                     return (
-                        <div>
+                        <div key={hero.humanName}>
                             <h1><u>Hero:</u> {hero.heroName}</h1>
                             <h2><u>Alias:</u> {hero.humanName}</h2>
                             <h2><u>Superpowers:</u></h2>

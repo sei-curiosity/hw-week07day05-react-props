@@ -48,7 +48,9 @@
   ]
   ```
   
-  3. Now using Props render the Superheros with their heroName, humanName and superpowers (listed in a <ul> <li> .. </li></ul>) 
+  3. Now using Props render the Superheros with their heroName, humanName and superpowers 
+  ``` (listed in a <ul> <li> .. </li></ul> ) ```
+  
   ### HINT: You can use Props children to display the powers.js
   
   

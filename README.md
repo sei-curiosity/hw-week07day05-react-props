@@ -2,12 +2,14 @@
 
 # HW- React Props
 
-Task List:
+## Task List:
 
 1. Create a new React App.
-2. Add 2 components to the React App namely: <p>
-  -Heros.js (should return a component with an array of objects listing the heroes in it)
-  ```js
+2. Add 2 components to the React App namely:
+
+  ### Heros.js (should return a component with an array of objects listing the heroes in it)
+  
+```js
   [
     {
       heroName: 'Superman',
@@ -22,11 +24,11 @@ Task List:
       humanName: 'Diana'
     }
   ]
-  ```<p>
+```
   
   
   
-  -Powers.js (should return a component with an array of objects listing superpowers)<p>
+  ### Powers.js (should return a component with an array of objects listing superpowers)<p>
   
   
   ```js
@@ -44,8 +46,9 @@ Task List:
       superpowers: ['strength', 'lasso of truth']
     }
   ]
-  ``` <p>
+  ```
   
-  3. Now using Props render the Superheros with their heroName, humanName and superpowers (listed in a <ul> <li> .. </li></ul>) HINT: You can use Props children to display the powers.js
+  3. Now using Props render the Superheros with their heroName, humanName and superpowers (listed in a <ul> <li> .. </li></ul>) 
+  ### HINT: You can use Props children to display the powers.js
   
   

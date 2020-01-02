@@ -22,6 +22,7 @@ function App() {
             <Powers name={power.heroName} key ={index}>
             {power.superpowers.map((superpower, index) =>
              
+             
              <ul key ={index}>
              <li> {superpower} </li>
              </ul>

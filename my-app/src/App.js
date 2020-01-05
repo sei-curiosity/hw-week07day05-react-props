@@ -1,26 +1,30 @@
-// import logo from './logo.svg';
 import './App.css';
 
+import Heros from './components/Heros';
 import Powers from './components/Powers';
-import React from 'react';
+import heroinfo from './components/Data/hero';
+import logo from './logo.svg';
+import powerInfo from './components/Data/power';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div className="power">
+          { powerInfo.map((power)=>{
+            return( <Powers superpowers={power.superpowers}>
+              </Powers>
+            );
+            })}
+        </div>
+        
+          <div className="hero">
+            {heroinfo.map((hero)=>{
+              return( <Heros heroName={hero.heroName}></Heros> 
+                 );
+              })}        
+
+          </div>
+
     </div>
   );
 }

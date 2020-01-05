@@ -13,4 +13,4 @@ let heroinfo = [
     }
   ]
 
-//   export default HeroInfor;
+ export default HeroInfo;

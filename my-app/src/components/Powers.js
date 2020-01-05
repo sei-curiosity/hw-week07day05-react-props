@@ -18,4 +18,4 @@ class Powers extends Component {
     }
 }
  
-export default App;
+export default Powers;

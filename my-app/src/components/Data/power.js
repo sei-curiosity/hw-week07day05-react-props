@@ -13,4 +13,4 @@ let powerInfo = [
     }
   ]
 
-//export default powerInfo;
+export default powerInfo;

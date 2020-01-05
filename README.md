@@ -60,11 +60,8 @@
     </ul>
    
   
-
-  
   5. Now using Props render the Superheros with their heroName, humanName and superpowers (listed in an unordered list)
+  
+  *HINT: You can use Props children to display the powers.js*
 
-  
- *HINT: You can use Props children to display the powers.js*
-  
   

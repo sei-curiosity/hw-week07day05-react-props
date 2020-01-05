@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Heroes from "./components/Heroes";
-import heroinfo from './components/data/heroes';
+import heroinfo from './heroes';
 import Powers from './components/Powers';
 import powerInfo from './components/data/powers';
 function App() {

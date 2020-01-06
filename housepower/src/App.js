@@ -11,7 +11,6 @@ function App() {
   <div className="App">
       {
         heroinfo.map( (hero) => {
-          // I am passing the properties of each object in the array to the component Heroes
         return <Heroes hrName={hero.heroName} hmName={hero.humanName}>
                   {
         powerInfo.map( (power) => {

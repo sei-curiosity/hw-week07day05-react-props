@@ -1,5 +1,7 @@
 import './App.css';
 
+import React, { Component } from 'react';
+
 import Heros from './components/Heros';
 import Powers from './components/Powers';
 import heroinfo from './components/Data/hero';
